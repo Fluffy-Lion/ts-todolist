@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>ts todo list</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>todo list</h1>
+        <!-- output list -->
+        <ul class="item-list"></ul>
+    </div>
+    <footer>
+        <form class="new-form">
+            <div class="field">
+                <label>task:</label>
+                <input id="taskInput" type="text"/>
+            </div>
+            <div class="field">
+                <label>priority:</label>
+                <select id="priority">
+                    <option value="high">high</option>
+                    <option value="medium">medium</option>
+                    <option value="low">low</option>
+                </select>
+            </div>
+            <button>submit</button>
+        </form>
+    </footer>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
